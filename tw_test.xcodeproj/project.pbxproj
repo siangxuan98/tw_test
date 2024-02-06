@@ -106,6 +106,8 @@
 		DF669D522B72C30000F682A3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF669D222B72C30000F682A3 /* SettingView.swift */; };
 		DF669D552B72C36400F682A3 /* CustomTabView in Frameworks */ = {isa = PBXBuildFile; productRef = DF669D542B72C36400F682A3 /* CustomTabView */; };
 		DF669D572B72C36E00F682A3 /* CustomTabView in Frameworks */ = {isa = PBXBuildFile; productRef = DF669D562B72C36E00F682A3 /* CustomTabView */; };
+		DF669D5A2B72D16D00F682A3 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = DF669D592B72D16D00F682A3 /* AlertToast */; };
+		DF669D5C2B72D17B00F682A3 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = DF669D5B2B72D17B00F682A3 /* AlertToast */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF669D5A2B72D16D00F682A3 /* AlertToast in Frameworks */,
 				DF669D552B72C36400F682A3 /* CustomTabView in Frameworks */,
 				64AC8000A0F48765FAC49F9F /* Pods_tw_test_staging.framework in Frameworks */,
 			);
@@ -217,6 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF669D5C2B72D17B00F682A3 /* AlertToast in Frameworks */,
 				DF669D572B72C36E00F682A3 /* CustomTabView in Frameworks */,
 				09B2AA0610DF6DDC1CB75C71 /* Pods_tw_test_production.framework in Frameworks */,
 			);
@@ -503,6 +507,7 @@
 			name = tw_test_staging;
 			packageProductDependencies = (
 				DF669D542B72C36400F682A3 /* CustomTabView */,
+				DF669D592B72D16D00F682A3 /* AlertToast */,
 			);
 			productName = tw_test;
 			productReference = DF669C862B72BEC600F682A3 /* tw_test_staging.app */;
@@ -562,6 +567,7 @@
 			name = tw_test_production;
 			packageProductDependencies = (
 				DF669D562B72C36E00F682A3 /* CustomTabView */,
+				DF669D5B2B72D17B00F682A3 /* AlertToast */,
 			);
 			productName = tw_test;
 			productReference = DF669CBE2B72BEDB00F682A3 /* tw_test_production.app */;
@@ -603,6 +609,7 @@
 			mainGroup = DF669C7D2B72BEC500F682A3;
 			packageReferences = (
 				DF669D532B72C33300F682A3 /* XCRemoteSwiftPackageReference "SwiftUI-CustomTabView" */,
+				DF669D582B72D16D00F682A3 /* XCRemoteSwiftPackageReference "AlertToast" */,
 			);
 			productRefGroup = DF669C872B72BEC600F682A3 /* Products */;
 			projectDirPath = "";
@@ -1297,6 +1304,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		DF669D582B72D16D00F682A3 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1309,6 +1324,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DF669D532B72C33300F682A3 /* XCRemoteSwiftPackageReference "SwiftUI-CustomTabView" */;
 			productName = CustomTabView;
+		};
+		DF669D592B72D16D00F682A3 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF669D582B72D16D00F682A3 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		DF669D5B2B72D17B00F682A3 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF669D582B72D16D00F682A3 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

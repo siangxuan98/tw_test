@@ -19,7 +19,7 @@ target 'tw_test_production' do
   pod 'Kingfisher', '~> 5.0'
   pod 'SwiftyGif'
   pod 'IBAnimatable'
-  pod 'AlertToast', '~> 1.3.9'
+#  pod 'AlertToast', '~> 1.3.9'
   pod 'FLAnimatedImage', '~> 1.0'
   pod 'lottie-ios'
 
