@@ -1,0 +1,15 @@
+"app_name" = "TW Test App";
+"common_error" = "An error has occurred, please try again later!";
+"common_no_internet_connection" = "No Internet Connection";
+"common_error_mapping_data" = "Error mapping data";
+"login" = "Login";
+"send_verification_code" = "Send Verification Code";
+"phone_number" = "Phone Number";
+"name" = "Name";
+"search" = "Search";
+"enter_verification_code" = "Enter Verification Code";
+"verification_code_message" = "A verification code has been sent to";
+"code_expires_in" = "Code expires in";
+"resend_code_after" = "Resend code after";
+"resend_code" = "Resend code";
+"verify" = "Verify";
